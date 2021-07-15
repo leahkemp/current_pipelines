@@ -1,9 +1,9 @@
 # RNAseq pipelines - current status
 
 Created: 2020/09/24 15:19:42
-Last modified: 2021/07/15 13:20:13
+Last modified: 2021/07/15 13:22:08
 
-- **Aim:** Evaluate the current pipelines available for processing **RNA-seq** data. This will help us decide if there is a pipeline currently available for our use, one we could adapt, or if we will need to create a RNA-seq pipeline from scratch
+- **Aim:** Evaluate the current pipelines available for processing **RNA-seq** data
 
 ## Table of contents
 

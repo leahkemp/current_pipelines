@@ -1,13 +1,29 @@
 # small RNAseq pipelines - current status
 
 Created: 2020/09/24 15:19:42
-Last modified: 2021/07/15 13:20:14
+Last modified: 2021/07/15 13:22:15
 
-- **Aim:** Evaluate the current pipelines available for processing **small RNA-seq** data. This will help us decide if there is a pipeline currently available for our use, one we could adapt, or if we will need to create a small RNA-seq pipeline from scratch
+- **Aim:** Evaluate the current pipelines available for processing **small RNA-seq** data
 
 ## Table of contents
 
-## Sipelines
+- [small RNAseq pipelines - current status](#small-rnaseq-pipelines---current-status)
+  - [Table of contents](#table-of-contents)
+  - [Pipelines](#pipelines)
+    - [smrnaseq](#smrnaseq)
+    - [sports1.1](#sports11)
+    - [smallseq](#smallseq)
+    - [SnapT](#snapt)
+    - [short-ncrna-annotation](#short-ncrna-annotation)
+    - [ncRNA_Pipeline](#ncrna_pipeline)
+    - [FlaiMapper](#flaimapper)
+    - [exceRNApipeline](#excernapipeline)
+    - [sRNAflow](#srnaflow)
+    - [gorap](#gorap)
+  - [Other things of possible interest](#other-things-of-possible-interest)
+  - [Notes](#notes)
+
+## Pipelines
 
 ### smrnaseq
 
