@@ -1,7 +1,7 @@
 # small RNAseq pipelines - current status
 
 Created: 2020/09/24 15:19:42
-Last modified: 2021/07/15 13:29:11
+Last modified: 2021/07/15 13:39:21
 
 - **Aim:** Evaluate the current pipelines available for processing **small RNA-seq** data
 
@@ -11,6 +11,7 @@ Last modified: 2021/07/15 13:29:11
   - [Table of contents](#table-of-contents)
   - [Pipelines](#pipelines)
     - [smrnaseq](#smrnaseq)
+    - [excerpt](#excerpt)
     - [sports1.1](#sports11)
     - [smallseq](#smallseq)
     - [SnapT](#snapt)
@@ -33,6 +34,16 @@ Last modified: 2021/07/15 13:29:11
 - Nextflow
 - Deployable to SLURM and AWS
 - Actively maintained (last commit 12 months ago)
+
+### excerpt
+
+- github [here](https://github.com/rkitchen/exceRpt)
+- Filtering, alignment, and reporting of smallRNA-seq datasets
+- Open source
+- Written in Java (not in a workflow language)
+- In a docker container for
+- Difficult to customise (for example if you wanted to use a different alignment or trimming method)
+- A bit older, core pipeline hasn't changed in ~ 5 years, minimal maintenance in the last 2 years - may not be actively maintained/supported
 
 ### sports1.1
 
