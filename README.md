@@ -6,3 +6,6 @@ See the current status of pipelines for processing:
 
 - [RNAseq data](RNAseq_pipelines_current_status.md)
 - [Small RNAseq data](small_RNAseq_pipelines_current_status.md)
+
+
+Rendered github page at: https://leahkemp.github.io/rna_pipelines/
