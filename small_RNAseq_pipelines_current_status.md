@@ -1,7 +1,7 @@
 # small RNAseq pipelines - current status
 
 Created: 2020/09/24 15:19:42
-Last modified: 2021/07/15 13:22:15
+Last modified: 2021/07/15 13:29:11
 
 - **Aim:** Evaluate the current pipelines available for processing **small RNA-seq** data
 
@@ -124,29 +124,29 @@ Last modified: 2021/07/15 13:22:15
 
 ## Notes
 
--	[smrnaseq](https://github.com/nf-core/smrnaseq) is still the most robust pipeline I’ve come across in terms of:
-    - being in a workflow language
-    - being specific to both small and non-coding RNA
-    - being deployable to cluster/cloud environments
--	There are a plethora of pipelines available for RNA-seq (more than I’ve covered in this document) 
+- [smrnaseq](https://github.com/nf-core/smrnaseq) is still the most robust pipeline I’ve come across in terms of:
+  - being in a workflow language
+  - being specific to both small and non-coding RNA
+  - being deployable to cluster/cloud environments
+- There are far more pipelines available for RNA-seq data
 - There seems to very few pipelines dedicated to both small and non-coding RNA-seq
--	There are a bunch of interesting scripts available that might end up being useful to incorporate or compliment whichever pipeline we end up using, or be used for future analyses:
-    - [CloseCall](https://github.com/StevenWingett/CloseCall) can identify RNA-RNA interactions 
-    - [DiMSum](https://github.com/lehner-lab/DiMSum) uses deep mutational scanning to enable the multiplexed measurement of the effects of thousands of variants of proteins, RNAs, and regulatory elements
-    - [HPC-REDItools](https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-020-03562-x) is a tool for large-scale RNA-editing analysis
-    - [draw_annotation](https://github.com/fanagislab/draw_annotation) to map annotated ncRNAs (and other elements) to a chromosome and visualise
--	There are some other interesting pipelines: 
-    - [sRNAflow](https://github.com/zajakin/sRNAflow) is a Nextflow pipeline to analyse small RNA that is tailored to meet the specific needs of samples derived from biofluids
-    - [exceRNApipeline](https://github.com/zhuchcn/exceRNApipeline) is a Snakemake pipeline for extracellular small RNA-seq
--	There are a few interesting annotation pipelines:
-    - [FlaiMapper](https://github.com/yhoogstrate/flaimapper )
-    - [short-ncrna-annotation](https://github.com/SimonSchafferer/short-ncrna-annotation) 
-    - However, these are typically older repos, and the scripts aren’t wrapped in a workflow language
-    - Additionally it looks like there is some overlap in the analyses in smrnaseq and FlaiMapper 
--	Some interesting and more general RNA-Seq pipelines: 
-    - [viper-rnaseq](https://github.com/hanfeisun/viper-rnaseq)
-    - [rna-seq-star-deseq2](https://github.com/snakemake-workflows/rna-seq-star-deseq2)
-    - [rna-seq-kallisto-sleuth](https://github.com/snakemake-workflows/rna-seq-kallisto-sleuth)
-    - [RNA-seq](https://github.com/biowdl/RNA-seq)
-    - [snakemake_deeptools](https://github.com/AngryMaciek/snakemake_deeptools)
-    - [omics_pipe](https://pypi.org/project/omics_pipe/)
+- There are a bunch of interesting scripts available that might end up being useful to incorporate or compliment whichever pipeline we end up using, or be used for future analyses:
+  - [CloseCall](https://github.com/StevenWingett/CloseCall) can identify RNA-RNA interactions
+  - [DiMSum](https://github.com/lehner-lab/DiMSum) uses deep mutational scanning to enable the multiplexed measurement of the effects of thousands of variants of proteins, RNAs, and regulatory elements
+  - [HPC-REDItools](https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-020-03562-x) is a tool for large-scale RNA-editing analysis
+  - [draw_annotation](https://github.com/fanagislab/draw_annotation) to map annotated ncRNAs (and other elements) to a chromosome and visualise
+- There are some other interesting pipelines:
+  - [sRNAflow](https://github.com/zajakin/sRNAflow) is a Nextflow pipeline to analyse small RNA that is tailored to meet the specific needs of samples derived from biofluids
+  - [exceRNApipeline](https://github.com/zhuchcn/exceRNApipeline) is a Snakemake pipeline for extracellular small RNA-seq
+- There are a few interesting annotation pipelines:
+  - [FlaiMapper](https://github.com/yhoogstrate/flaimapper )
+  - [short-ncrna-annotation](https://github.com/SimonSchafferer/short-ncrna-annotation) 
+  - However, these are typically older repos, and the scripts aren’t wrapped in a workflow language
+  - Additionally it looks like there is some overlap in the analyses in smrnaseq and FlaiMapper 
+- Some interesting and more general RNA-Seq pipelines:
+  - [viper-rnaseq](https://github.com/hanfeisun/viper-rnaseq)
+  - [rna-seq-star-deseq2](https://github.com/snakemake-workflows/rna-seq-star-deseq2)
+  - [rna-seq-kallisto-sleuth](https://github.com/snakemake-workflows/rna-seq-kallisto-sleuth)
+  - [RNA-seq](https://github.com/biowdl/RNA-seq)
+  - [snakemake_deeptools](https://github.com/AngryMaciek/snakemake_deeptools)
+  - [omics_pipe](https://pypi.org/project/omics_pipe/)
