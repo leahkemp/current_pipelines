@@ -4,5 +4,5 @@ This is a place to evaluate the current pipelines available for processing RNA d
 
 See the current status of pipelines for processing:
 
-- [RNAseq data](RNAseq_pipelines_current_status.md)
+- [RNAseq data](rna_pipelines.csv)
 - [Small RNAseq data](small_RNAseq_pipelines_current_status.md)
