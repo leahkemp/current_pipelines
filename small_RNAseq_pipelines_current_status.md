@@ -1,7 +1,7 @@
 # small RNAseq pipelines - current status
 
 Created: 2020/09/24 15:19:42
-Last modified: 2021/07/15 13:39:21
+Last modified: 2021/07/26 17:53:41
 
 - **Aim:** Evaluate the current pipelines available for processing **small RNA-seq** data
 
@@ -10,120 +10,12 @@ Last modified: 2021/07/15 13:39:21
 - [small RNAseq pipelines - current status](#small-rnaseq-pipelines---current-status)
   - [Table of contents](#table-of-contents)
   - [Pipelines](#pipelines)
-    - [smrnaseq](#smrnaseq)
-    - [excerpt](#excerpt)
-    - [sports1.1](#sports11)
-    - [smallseq](#smallseq)
-    - [SnapT](#snapt)
-    - [short-ncrna-annotation](#short-ncrna-annotation)
-    - [ncRNA_Pipeline](#ncrna_pipeline)
-    - [FlaiMapper](#flaimapper)
-    - [exceRNApipeline](#excernapipeline)
-    - [sRNAflow](#srnaflow)
-    - [gorap](#gorap)
   - [Other things of possible interest](#other-things-of-possible-interest)
   - [Notes](#notes)
 
 ## Pipelines
 
-### smrnaseq
-
-- github [here](https://github.com/nf-core/smrnaseq) and paper [here](https://www.biorxiv.org/content/10.1101/610741v1)
-- Best-practice analysis pipeline used for small RNA sequencing data
-- Open source
-- Nextflow
-- Deployable to SLURM and AWS
-- Actively maintained (last commit 12 months ago)
-
-### excerpt
-
-- github [here](https://github.com/rkitchen/exceRpt)
-- Filtering, alignment, and reporting of smallRNA-seq datasets
-- Open source
-- Written in Java (not in a workflow language)
-- In a docker container for
-- Difficult to customise (for example if you wanted to use a different alignment or trimming method)
-- A bit older, core pipeline hasn't changed in ~ 5 years, minimal maintenance in the last 2 years - may not be actively maintained/supported
-
-### sports1.1
-
-- github [here](https://github.com/junchaoshi/sports1.1) and paper [here](https://www.sciencedirect.com/science/article/pii/S1672022918300445)
-- Small non-coding RNA annotation Pipeline Optimized for rRNA- and tRNA-Derived Small RNAs
-- Open source
-- Written in R and perl (not in a workflow language)
-- Actively maintained (last commit 2 months ago)
-
-### smallseq
-
-- github [here](https://github.com/eyay/smallseq)
-- Analyze small RNAs from single-cells
-- Open source
-- Written in python (not in a workflow language)
-- Hasn't been updated in three years - may not be actively maintained/supported
-
-### SnapT
-
-- github [here](https://github.com/ursky/SnapT)
-- A Small non-coding RNA annotation pipeline for Transcriptomic or metatranscriptomic data
-- Written in python (not in a workflow language)
-- Open source
-- Actively maintained (last commit 6 months ago)
-
-### short-ncrna-annotation
-
-- github [here](https://github.com/SimonSchafferer/short-ncrna-annotation)
-- Annotation of commonly used interval/range based data such as the browser extended display format (BED), or the general feature format (GFF). In addition, it provides sequence based annotation, by employing the NCBI blast+ software
-- Written in R (not in a workflow language)
-- Open source
-- Hasn't been updated in six years - may not be actively maintained/supported
-
-### ncRNA_Pipeline
-
-- github [here](https://github.com/navygit/ncRNA_Pipeline)
-- Open source
-- Written in perl (not in a workflow language)
-- Hasn't been updated in five years - may not be actively maintained/supported
-
-### FlaiMapper
-
-- github [here](https://github.com/yhoogstrate/flaimapper), paper [here](https://academic.oup.com/bioinformatics/article/31/5/665/2748143)
-- Annotation of small ncRNA-derived fragments using RNA-seq high-throughput data
-- Open source
-- Written in bash (not in a workflow language)
-- Hasn't been updated in four years - may not be actively maintained/supported
-
-### exceRNApipeline
-
-- github [here](https://github.com/zhuchcn/exceRNApipeline)
-- Data processing pipeline for extracellular small RNA-seq from human specimen.The pipeline is designated for running on HPC with the job management system SLURM.
-- Preprocess: remove adapters and trimming low quality nucleotides, using HTStream.
-- UniVec: map to the NCBI's UniVec database to remove vector origins
-- RiboRNA: map to the rRNA sequences
-- Human Genome: map to human genome
-- Repetitive Elements: map to RepeatMasker's repetitive elements sequences
-- SILVA: map to SILVA's ribosomal rRNA gene of bacteria, archaea, and fungi
-- Bacteria: map to all bacteria genomes in ensemble's
-- Only supports single end sequencing data
-- Snakemake
-- Open source
-- Actively maintained (last commit 6 months ago)
-
-### sRNAflow
-
-- github [here](https://github.com/zajakin/sRNAflow)
-- Analysis of small RNA that fulfills the specific needs for samples derived from biofluids
-- Nextflow
-- Open source
-- Actively maintained (last commit 28 days ago)
-
-### gorap
-
-- github [here](https://github.com/koriege/gorap), website [here](https://www.rna.uni-jena.de/research/software/)
-- Screens genomic sequences for all non-coding RNAs present in the Rfam database
-- Provides ncRNA based reconstruction of phylogenetic trees and is able to perform de novo predictions including TPM calculations from RNA-Seq experiments
-- Open source
-- Written in perl (not in a workflow language)
-- Actively maintained (last commit 7 months ago)
+See [small RNAseq pipelines](./small_RNAseq_pipelines.csv)
 
 ## Other things of possible interest
 
