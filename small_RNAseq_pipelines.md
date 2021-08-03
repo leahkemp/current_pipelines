@@ -1,7 +1,7 @@
 # small RNAseq pipelines - current status
 
 Created: 2020/09/24 15:19:42
-Last modified: 2021/07/26 17:57:46
+Last modified: 2021/08/03 10:57:21
 
 - **Aim:** Evaluate the current pipelines available for processing **small RNA-seq** data
 
@@ -15,7 +15,7 @@ Last modified: 2021/07/26 17:57:46
 
 ## Pipelines
 
-See [small RNAseq pipelines](./small_RNAseq_pipelines.csv)
+See [small RNAseq pipelines](./small_RNAseq_pipelines.csv) for a spreadsheet of pipelines
 
 ## Other things of possible interest
 
