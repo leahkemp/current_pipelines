@@ -1,7 +1,7 @@
 # RNAseq pipelines - current status
 
 Created: 2020/09/24 15:19:42
-Last modified: 2021/08/03 15:41:31
+Last modified: 2021/08/03 16:28:54
 
 - **Aim:** Evaluate the current pipelines available for processing **RNA-seq** data
 
@@ -55,11 +55,10 @@ My current favorite pipelines:
   - Based on Snakemake
   - This could be a really good way to go if it works well
 
-I would:
+Plan:
 
 - Analyse our RNA-Seq data with [nf-core/rnaseq](https://github.com/nf-core/rnaseq)
-- Possibly develop a subworkflow for [nf-core/rnaseq](https://github.com/nf-core/rnaseq) that runs [rna_fq2bam](https://docs.nvidia.com/clara/parabricks/v3.5/text/rna.html#rna-fq2bam) to GPU accelerate STAR, gatk SortSam, gatk MarkDuplicates steps
+- Down to line we could develop a subworkflow for [nf-core/rnaseq](https://github.com/nf-core/rnaseq) that runs [rna_fq2bam](https://docs.nvidia.com/clara/parabricks/v3.5/text/rna.html#rna-fq2bam) to GPU accelerate STAR, gatk SortSam, gatk MarkDuplicates steps
 - Use [rna_pipeline](https://docs.nvidia.com/clara/parabricks/v3.5/text/rna_pipeline.html) if we're interested in variant discovery
 - Use our code to carry out a differential expression analysis after [nf-core/rnaseq](https://github.com/nf-core/rnaseq)
 - Try out the differential expression analysis with [Sleuth](https://pachterlab.github.io/sleuth/) (based on or using [snakemake-workflows/rna-seq-kallisto-sleuth](https://github.com/snakemake-workflows/rna-seq-kallisto-sleuth) or [cbcrg/kallisto-nf](https://github.com/cbcrg/kallisto-nf)) to perform a differential expression analysis of gene isoforms (*note. To use sleuth, RNA-Seq data must first be quantified with kallisto*)
-- See how user friendly [epruesse/ymp](https://github.com/epruesse/ymp) is
