@@ -3,7 +3,7 @@
 Created: 2021/07/27 10:58:43
 Last modified: 2021/08/03 10:57:37
 
-- **Aim:** Evaluate the current pipelines available for processing **RNA-seq** data
+- **Aim:** Evaluate the current pipelines available for processing **nanopore sequence** data
 
 ## Table of contents
 
